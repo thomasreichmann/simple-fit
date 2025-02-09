@@ -7,6 +7,7 @@
     {
       "name": "Next.js: Local",
       "type": "node-terminal",
+      "smartStep": true,
       "request": "launch",
       "command": "pnpm dev",
       "cwd": "${workspaceFolder}",
@@ -23,7 +24,8 @@
         "${workspaceFolder}/**",
         "!**/node_modules/**",
         "!**/.next/**"
-      ]
+      ],
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }
